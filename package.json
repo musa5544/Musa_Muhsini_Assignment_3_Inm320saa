@@ -1,0 +1,21 @@
+{
+  "name": "musa_muhsini_assignment_3_inm320saa-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server --baseDir=\"public\"", 
+    "watch": "sass --watch src/scss:public/assets/css", 
+    "start": "concurrently \"npm run watch\" \"npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "sass": "^1.71.1"
+  }
+}
